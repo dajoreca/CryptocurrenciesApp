@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, 
+import { 
   SafeAreaView,
   StyleSheet,
   ScrollView,
@@ -8,12 +8,12 @@ import { StyleSheet,
   StatusBar,
 
 } from 'react-native';
-
+import Header from './componentes/Header';
 
 const  App = () => {
   return (
     <>
-    
+        <Header />
     </>
   );
 };
